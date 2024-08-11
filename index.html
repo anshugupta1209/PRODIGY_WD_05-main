@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast App</title>
+</head>
+<body>
+    <div class="weather-container">
+        <div class="input-container">
+            <input type="text" id="locationInput" placeholder="Enter location">
+            <button onclick="getWeatherByInput()">Get Weather</button>
+        </div>
+        <div id="weatherData">
+            <p id="weatherCondition"></p>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+        </div>
+    </div>
+</body>
+</html>
